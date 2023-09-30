@@ -1,0 +1,181 @@
+body{
+
+    margin: 0;
+}
+.header{
+    height: 5emm;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+.headpic img{
+    height: 3.6em;
+    margin-left: 16em;
+    
+}
+.head1{
+    
+    color: white;
+    display: flex; 
+    padding-right: 5px; 
+    gap: 40px;
+    margin-left: 360px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contimg1 img{
+    width: 100%;
+}
+.contimg1{
+    position: relative;
+}
+.cont1text{
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    top: 250px;
+   margin-left: 550px;
+   text-align: center;
+   font: bolder;
+}
+.cont1text h1{
+    font-size: 3.5em;
+    width: 400px;
+}
+.cont1text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    gap: 6.3em;
+}
+.cont2img img{
+width: 450px;
+border-radius: 20px;
+height: 280px;
+}
+.cont2img h2{
+   text-align: center; 
+   color: #606060;
+   margin-top: 20px;
+
+}
+.cont3{
+    margin-top: 60px;
+    display: flex;
+    margin-left: 16em;
+    
+}
+.cont3txt h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3em;
+   
+}
+.cont3img img{
+width: 300px;
+border-radius: 20px;
+height: 500px;
+padding-left: 5em;
+
+}
+.cont3txt p{
+font-family:Arial, Helvetica, sans-serif;
+}
+.divlast {
+    background-color: black;
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+    padding-left: 75px;
+}
+.txtfnl{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.txtfnl h1{
+    font-size: 43px;
+    padding-left: 115px;
+    padding-top: 56px;
+}
+.txtfnl p{
+    padding-left: 115px;
+    margin-top: -25px;
+    }
+
+button {
+    color: #5c5656;
+    width: 110px;
+    font-weight: 600;
+    height: 35px;;
+    font: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 115px;
+    background-color: rgb(248, 249, 250); 
+    border-radius:5px;
+    border:1px solid #fff;
+    
+}
+button:hover{
+    background-color: black;
+    color: white;
+    
+}
+.common {
+    width: 170px;
+    height: 55px;
+    border-radius: 6px;
+    background-color: black;
+    border: 1px solid gray;
+    background-position: center;
+    cursor: pointer;
+}
+
+.badge {
+    display: flex;
+    background-color: black;
+    padding-left: 27%;
+}
+
+.img1 {
+    background-size: cover;
+    background-image: url(image/app-store-badge.svg);
+    margin-right: 24px;
+}
+
+.img2 {
+    background-image: url(image/google-play-badge.svg);
+
+}
+
+.ftr1 {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+
+.ftr {
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 215px;
+    display: block;
+    padding-left: 185px;
+}
+.cpy h5{
+color: white;
+background-color: black;
+text-align: center;
+margin: 0;
+height: 2em;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 16px;
+padding-bottom: 6px;
+}
